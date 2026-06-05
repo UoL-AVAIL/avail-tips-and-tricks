@@ -2,10 +2,6 @@
 
 A shared knowledge base for the AVAIL group (students and staff) to capture practical research workflows, tooling guides, and reusable examples.
 
-## What is AVAIL?
-
-AVAIL is a research-focused group that shares methods, tools, and working practices across projects. This repository is our living handbook: practical, concise, and easy to reuse.
-
 ## What this repository is for
 
 Use this repository to:
