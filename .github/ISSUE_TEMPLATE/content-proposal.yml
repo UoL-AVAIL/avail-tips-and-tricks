@@ -1,0 +1,35 @@
+name: Content proposal
+about: Propose a tutorial, notebook, script, or getting-started guide
+labels: [content]
+body:
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: Content type
+      options:
+        - Tutorial
+        - Notebook
+        - Script
+        - Getting started guide
+        - Reference/checklist
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+      placeholder: Getting started with ...
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and audience
+      placeholder: What problem does this solve and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: Reproducibility notes
+      placeholder: Dependencies, data, expected outputs
